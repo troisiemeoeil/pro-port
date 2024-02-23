@@ -3,14 +3,16 @@ const {  socialImage, twitterImage, author } =
   Astro.props;
 let title = "Troisieme Oeil Digital"
 let subtitle = "Web & Software Development";
-let url = "www.troisiemeoeil.io;"
+let url = "www.troisiemeoeil.io"
 let description = "Creating exceptional pieces of tech everyday by building amazing projects all over the world."
 ---
 <!--
     Standard meta
  -->
 <meta charset="UTF-8" />
-<meta name="author" content="Yout name" />
+<meta name="author" content={title} />
+<meta name="description" content={description} />
+<meta name="url" content={url} />
 <meta name="theme-color" content="#ffffff" />
 <meta name="viewport" content="width=device-width" />
 <meta name="msapplication-TileColor" content="#ffffff" />

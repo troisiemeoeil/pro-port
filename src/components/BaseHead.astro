@@ -15,9 +15,7 @@ const sanitizedTitle = title.toLowerCase().replaceAll(" ", "-");
 <Metas
   title={title}
   description={description.substring(0, 100)}
-  url={Astro.site
-    ? `${Astro.site}/${sanitizedTitle}`
-    : `https://lexingtonthemes.com/${sanitizedTitle}`}
+  url={url}
   image={socialImage}
   author={author}
   twitterImage={twitterImage}
