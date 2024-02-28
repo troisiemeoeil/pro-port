@@ -2,16 +2,19 @@
 import BaseHead from "@/components/BaseHead.astro";
 import Navigation from "@/components/global/Navigation.astro";
 import Footer from "@/components/global/Footer.astro";
-
+import SmoothScrolling from '@/components/SmoothScrolling.jsx'
 ---
 
 <html lang="en" class="selection:text-black selection:bg-white">
   <head>
     <BaseHead />
   </head>
+  
   <body class="bg-black 2xl:max-w-7xl mx-auto">
+      <SmoothScrolling  client:load>
       <Navigation />
       <slot />
       <Footer />
-  </body>
+    </SmoothScrolling>
+    </body>
 </html>

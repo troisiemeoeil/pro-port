@@ -18,5 +18,12 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://troisiemeoeil.io',
-  integrations: [tailwind(), sitemap(), mdx(), react()]
+  // integrations: [tailwind(), sitemap(), mdx(), react()]
+  integrations: [
+    tailwind(),
+    mdx(),
+    react({
+      include: ['**/react/*'],
+    }),
+  ],
 });
