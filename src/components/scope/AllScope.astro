@@ -1,6 +1,8 @@
 ---
 import { designwork } from "../../data/designwork.json";
 import { devwork } from "../../data/devwork.json";
+import { bizwork } from "../../data/bizwork.json";
+
 ---
 
 <section
@@ -30,7 +32,7 @@ import { devwork } from "../../data/devwork.json";
         <div
           class="p-8 inline-flex items-center border-b w-full border-white/10"
         >
-          <p class="text-2xl text-white">Design</p>
+          <p class="text-2xl text-white">Sofware Development</p>
         </div>
         <div class="divide-y divide-white/10">
           {
@@ -69,7 +71,7 @@ import { devwork } from "../../data/devwork.json";
         <div
           class="p-8 inline-flex items-center border-b w-full border-white/10"
         >
-          <p class="text-2xl text-white">Development</p>
+          <p class="text-2xl text-white">3D/AR Integration</p>
         </div>
         <div class="divide-y divide-white/10">
           {
@@ -108,11 +110,11 @@ import { devwork } from "../../data/devwork.json";
         <div
           class="p-8 inline-flex items-center border-b w-full border-white/10"
         >
-          <p class="text-2xl text-white">Marketing</p>
+          <p class="text-2xl text-white">IT Entreprise Solutions</p>
         </div>
         <div class="divide-y divide-white/10">
           {
-            devwork.map((template) => (
+            bizwork.map((template) => (
               <>
                 <div class="px-8  py-4 flex flex-col sm:flex-row justify-between gap-4 lg:items-end">
                   <p class="font-medium leading-6 text-white text-sm flex gap-2 items-center">

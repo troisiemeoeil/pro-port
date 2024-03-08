@@ -1,11 +1,11 @@
 export const byName: string[] = [
-    "Redesigns",
-    "Refactors",
-    "Components",
-    "Landing pages",
-    "Full website",
-    "Open Graphs",
-    "Social media assets",
+    "Design to Code",
+    "Custom Software",
+    "Full Website",
+    "No-code conversion",
+    "WP & Shopify Integration",
+    "Server Management",
+    "IT Maintenance",
   ];
 
   export const designwork = byName.map(title => ({ title }));
