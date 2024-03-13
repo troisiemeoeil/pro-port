@@ -5,16 +5,16 @@ import Footer from "@/components/global/Footer.astro";
 import SmoothScrolling from '@/components/SmoothScrolling.jsx'
 ---
 
-<html lang="en" class="selection:text-black selection:bg-white">
+<html lang="en" class="selection:text-black selection:bg-white scroll">
   <head>
     <BaseHead />
   </head>
   
   <body class="bg-black 2xl:max-w-7xl mx-auto">
-      <SmoothScrolling  client:load>
+      <!-- <SmoothScrolling  client:load> -->
       <Navigation />
       <slot />
       <Footer />
-    </SmoothScrolling>
+    <!-- </SmoothScrolling> -->
     </body>
 </html>

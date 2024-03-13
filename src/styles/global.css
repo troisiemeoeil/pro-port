@@ -22,3 +22,7 @@
 .prose-styles {
   @apply text-zinc-400 hover:prose-a:text-white max-w-7xl mt-24 mx-auto prose prose-a:font-semibold prose-a:text-blue-300 prose-headings:font-medium  prose-pre:border prose-pre:border-zinc-800 prose-headings:text-white prose-strong:text-white prose-img:border prose-img:border-zinc-800  prose-img:rounded-3xl  prose-img:bg-zinc-800 prose-blockquote:text-blue-300 prose-blockquote:border-zinc-800 prose-blockquote:border-l-2 prose-code:text-white prose-table:border-zinc-800;
 }
+
+html {
+  scroll-behavior: smooth;
+}
